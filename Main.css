@@ -51,9 +51,9 @@ body{
     text-align: center;
     font-family: monospace;
 	font-display: auto
-    font-size: 6px;
+    font-size: 5px;
     position: absolute;
-    top:60%;
+    top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -82,12 +82,12 @@ body{
 #next{
     width: 60px;
     height: 60px;
-    left: 70%;
+    left: 80%;
 }
 #pre{
     width: 60px;
     height: 60px;
-    left: 30%;
+    left: 20%;
 }
 #play img,#next img,#pre img{
     position: absolute;
