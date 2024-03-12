@@ -36,7 +36,7 @@ body{
     z-index: 999;
 }
 #image img{
-    height: 700px;
+    height: 600px;
     width: 100%;
     margin-top: -5px;
     border-top-left-radius: 15px;
