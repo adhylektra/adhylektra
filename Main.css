@@ -26,17 +26,17 @@ body{
     z-index: 99;
 }
 #main{
-    width: 457px;
-    background-color: #fff;
-    border-radius: 15px;
+    width: 50%;
+    background-color:#fff;
+    border-radius: 20px;
     position: absolute;
-    top: 50%;
+    top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 999;
 }
 #image img{
-    height: 180px;
+    height: 350px;
     width: 100%;
     margin-top: -5px;
     border-top-left-radius: 15px;
@@ -47,12 +47,13 @@ body{
     color:#333;
 }
 #songTitle{
-    width: 249px;
+    width:300px;
     text-align: center;
     font-family: monospace;
+	font-display: auto
     font-size: 18px;
     position: absolute;
-    top: 60%;
+    top:60%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -116,5 +117,18 @@ body{
     margin-left: -5px;
     transform: scale(2);
 }
-#seek-bar {
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
