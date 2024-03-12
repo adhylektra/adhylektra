@@ -1,7 +1,11 @@
 <html>
     <head>
         <link href="https://adhylektra.github.io/adhylektra/Main.css" rel="stylesheet"/>
-        <script src="https://adhylektra.github.io/adhylektra/jquery-1.10.2.min.js"></script>
+        <style type="text/css">
+        .ce {
+}
+        </style>
+<script src="https://adhylektra.github.io/adhylektra/jquery-1.10.2.min.js"></script>
     </head>
     <body>
         <div id="bg">
@@ -14,7 +18,7 @@
                 <img src="https://images2.imgbox.com/9e/df/8EVBEY1M_o.gif" width="100" height="61"/>
             </div>
             <div id="player">
-                <div id="songTitle">RADIO RRI</div>
+                <div id=""><center><strong>RADIO RRI MATARAM</strong></center></div>
                 <div id="buttons">
                     <button id="pre" onclick="pre()"><img src="Pre.png" height="90%" width="90%"/></button>
                     <button id="play" onclick="playOrPauseSong()"><img src="Pause.png"/></button>
@@ -30,8 +34,8 @@
     </body>
     <script type="text/javascript">
     
-        var songs = ["https://stream-node0.rri.co.id/streaming/14/9014/kbrn.mp3","http://stream-node1.rri.co.id:9113/rrimatarampro1.mp3","Song3.mp3"];
-        var poster = ["Poster1.jpg","Poster2.jpg","Poster3.jpg"];
+        var songs = ["https://stream-node0.rri.co.id/streaming/14/9014/kbrn.mp3","https://stream-node0.rri.co.id/streaming/11/9011/rrimedanpro2.mp3","http://stream-node1.rri.co.id:9113/rrimatarampro1.mp3"];
+        var poster = ["https://static.wikia.nocookie.net/logopedia/images/1/1a/RRI_Pro_1_Mataram.png","https://static.wikia.nocookie.net/logopedia/images/d/dd/RRI_Pro_2_Mataram.png","https://upload.wikimedia.org/wikipedia/id/thumb/5/54/Logo_RRI_Pro_3.png/250px-Logo_RRI_Pro_3.png"];
         
         var songTitle = document.getElementById("songTitle");
         var fillBar = document.getElementById("fill");
